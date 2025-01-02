@@ -115,10 +115,10 @@ const Header = () => {
             <div className="container mx-auto flex items-center justify-between py-4 px-6">
                 {/* Logo */}
                 <div className="text-2xl font-extrabold tracking-wide hover:scale-105 transform transition-all">
-                    <a href="/" className="flex items-center space-x-2">
+                    <Link href="/" className="flex items-center space-x-2">
                         <span className="bg-white text-indigo-600 px-2 py-1 rounded-md">MB</span>
                         <span>My Blog</span>
-                    </a>
+                    </Link>
                 </div>
 
                 {/* Desktop Navigation */}
@@ -167,14 +167,14 @@ const Header = () => {
                 <div className="md:hidden bg-purple-800">
                     <nav className="flex flex-col space-y-4 p-4 text-lg">
                         {["Home", "About", "Posts", "Contact"].map((link) => (
-                            <a
+                            <Link
                                 key={link}
 
                                 href={`/${link.toLowerCase()}`}
                                 className="hover:text-gray-300 transition duration-300 font-semibold"
                             >
                                 {link}
-                            </a>
+                            </Link>
                         ))}
                     </nav>
                 </div>
