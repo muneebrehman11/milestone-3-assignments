@@ -21,9 +21,9 @@ const Home = async () => {
         <div className="max-w-7xl mx-auto text-center">
           <h2 className="text-4xl font-extrabold mb-4">Welcome to My Blog</h2>
           <p className="text-lg mb-6">Explore amazing content on technology, lifestyle, and much more.</p>
-          <a href="/blog" className="inline-block px-6 py-3 bg-blue-600 text-white rounded-md hover:bg-blue-700">
+          <Link href="/blog" className="inline-block px-6 py-3 bg-blue-600 text-white rounded-md hover:bg-blue-700">
             Start Exploring
-          </a>
+          </Link>
         </div>
       </section>
       {/* Featured Blog Posts */}
@@ -84,7 +84,7 @@ const Home = async () => {
         <div className="max-w-7xl mx-auto px-4">
           <h3 className="text-3xl font-bold text-center mb-8">About My Blog</h3>
           <div className="text-lg text-gray-700 leading-relaxed">
-            <p>Welcome to my blog where I share articles on various topics such as technology, lifestyle, business, and more. This platform aims to provide valuable insights and keep you updated with the latest trends. Whether you're a tech enthusiast, a business owner, or someone looking for lifestyle tips, there's something for everyone.</p>
+            <p>Welcome to my blog where I share articles on various topics such as technology, lifestyle, business, and more. This platform aims to provide valuable insights and keep you updated with the latest trends. Whether you&apos;re a tech enthusiast, a business owner, or someone looking for lifestyle tips, there&apos;s something for everyone.</p>
           </div>
         </div>
       </section>

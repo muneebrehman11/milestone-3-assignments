@@ -44,11 +44,6 @@ interface Params {
   params: { slug: string };
 }
 
-interface Comment {
-    id: number;
-    text: string;
-  }
-
 const BlogPost = async ({ params }: Params) => {
   const { slug } = params;
    const data: Blog = await client.fetch(
